@@ -3,10 +3,10 @@ body {
 }
 
 .box {
-  width: 150px;
-  height: 150px;
+  width: 420px;
+  height: 420px;
   margin: 25px;
-  border: 1px solid black;
+  border: 12px solid black;
   float: left;
 }
 
@@ -20,4 +20,19 @@ body {
 
 .box-3 {
   background-color: bisque;
+}
+
+.box-1 {
+  border-color: green;
+  color: purple;
+}
+
+.box-2 {
+  border-color: gray;
+  color: white;
+}
+
+.box-3 {
+  border-color: blue;
+  color: red;
 }
