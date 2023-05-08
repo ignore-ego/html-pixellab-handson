@@ -21,3 +21,21 @@ p .line {
 b {
   color: purple;
 }
+
+a {
+  color: green;
+}
+
+.odd .line {
+  color: blue;
+}
+.even b {
+  text-decoration: underline;
+}
+a[href^="http://"]
+{
+  color: red;
+}
+a[href$='.com'] {
+  color: black;
+}

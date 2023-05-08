@@ -1,5 +1,11 @@
-/* insert code  */
+h1 {
+  color: red;
+  text-decoration: underline;
+}
 
+p {
+  color: gray;
+}
 ol a {
   color: green;
   text-decoration: line-through solid blue;
@@ -8,4 +14,21 @@ ol a {
 h2 {
   font-weight: normal;
   text-shadow: 2px 2px 5px yellow;
+}
+h3 {
+  text-shadow: 0 3px 5px green;
+  text-decoration: underline dotted brown;
+}
+ul li {
+  text-decoration: underline;
+  color: purple;
+}
+p b {
+  color: yellow;
+  text-decoration: underline;
+}
+p i {
+  color: blue;
+  text-decoration: line-through;
+  font-weight: bold;
 }
