@@ -10,8 +10,8 @@
 
 .stage .title {
   position: absolute;
-  top: 5px; 
-  right: 5px
+  top: 5px;
+  right: 5px;
 }
 
 .item {
@@ -21,3 +21,17 @@
   border: 1px solid red;
 }
 
+.stage-01 {
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-02 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.stage-03 {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
