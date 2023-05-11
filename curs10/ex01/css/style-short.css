@@ -1,0 +1,18 @@
+.pane-short .heading {
+  margin: 12px 0 12px 5px;
+}
+
+/* insert code */
+
+.pane-short .short-para {
+  width: 65%;
+  border: 1px solid gold;
+  margin: 12px auto;
+  padding: 5px 8px;
+}
+
+/* insert code */
+
+.pane-short .navigation {
+  margin: 10px 15px 10px 8px;
+}
