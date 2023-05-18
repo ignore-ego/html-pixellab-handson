@@ -16,3 +16,38 @@
   background-color: blue;
   color: brown;
 }
+
+.container {
+  position: relative;
+}
+
+.legend {
+  position: absolute;
+  background: gray;
+  border: 1px solid red;
+  top: -5px;
+}
+
+.sup {
+  position: relative;
+  font-size: 12px;
+  top: -4px;
+}
+
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: green;
+  z-index: 1;
+}
+
+.section-title {
+  position: sticky;
+  background: green;
+  color: white;
+  top: 8px;
+  text-align: center;
+  padding: 8px 0px;
+  z-index: 1;
+}
