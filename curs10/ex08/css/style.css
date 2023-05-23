@@ -10,3 +10,12 @@ select option:checked {
   font-weight: bold;
   color: red;
 }
+
+input[type='checkbox'] + label {
+  color: lightpink;
+  background: lightpink;
+}
+
+input[type='radio'] + label {
+  background: lightpink;
+}

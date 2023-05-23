@@ -20,3 +20,25 @@
   border-radius: 50%;
   margin-left: 4px;
 }
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  background: pink;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.my-second-list a::after {
+  content: '';
+  display: inline-block;
+  background: blue;
+  transform: rotate(45deg);
+  width: 24px;
+  height: 24px;
+}
