@@ -492,6 +492,34 @@ a {
   left: 50px;
   font-weight: 300;
   line-height: 22px;
+  font-size: 14px;
+}
+
+.banner-main .banner-main-inner h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.banner-main .banner-main-inner h2 {
+  font-size: 42px;
+  font-weight: 200;
+}
+
+.banner-main .banner-cta {
+  background: none;
+  border: 2px solid #ff6b6b;
+  border-radius: 37px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ff6b6b;
+  padding: 24px 42px;
+  transition: background-color 0.2s linear, color 0.2s linear;
+}
+
+.banner-main .banner-cta:hover {
+  background-color: #ff6b6b;
+  color: #fff;
 }
 
 .content-main > section {
@@ -526,6 +554,19 @@ a {
 }
 
 .catalog-preview .catalog-ctas {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.new-collection .product-tiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.new-collection .catalog-ctas {
   text-align: center;
   font-size: 18px;
   font-weight: 300;
